@@ -21,7 +21,7 @@ const NavBar = () => {
 
         <div className="navbar-collapse collapse" id="navmenu">
           <ul className="navbar-nav ms-auto fw-bold">
-            <CustomLink to="/aboutme">About Me</CustomLink>
+            <CustomLink to="/aboutme" onClick={() => alert('Clicked!')}>About Me</CustomLink>
             <CustomLink to="/skills">Skills</CustomLink>
             <CustomLink to="/projects">Projects</CustomLink>
             <CustomLink to="/exp">Experience</CustomLink>
